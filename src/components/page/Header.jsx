@@ -20,7 +20,7 @@ const Header = () => {
             className=" w-12 h-12 "
           />
           <div className="flex flex-col">
-            <p className="font-bold">John Doe</p>
+            <p className="font-bold">Shariful Islam</p>
             <p className="flex items-center">
               Admin <IoMdArrowDropdown />
             </p>

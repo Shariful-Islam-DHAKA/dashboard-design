@@ -16,7 +16,7 @@ const SideBar = () => {
           className="w-56 p-5 mb-[20px]
         "
         />
-        <div>
+        <div className="p-3">
           <NavLink
             to={"/"}
             className="flex mb-5 gap-4 items-center p-2 rounded-md"
@@ -24,7 +24,6 @@ const SideBar = () => {
             <FaHome className="text-2xl " />
             <p className="font-bold">DashBoard</p>
           </NavLink>
-
           <NavLink
             to={"projects"}
             className="flex mb-5  gap-4 items-center p-2 rounded-md"
